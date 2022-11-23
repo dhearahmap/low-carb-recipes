@@ -27,7 +27,7 @@ export default function FAQ() {
             live a healthy life. This Low Carb Recipes app is made with lots of love 
             so I hope you enjoy it! Let's live healthy!
             </p>
-            <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"></span>
+            <span className="inline-block h-1 w-10 rounded bg-green-500 mt-8 mb-6"></span>
             <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
               Dhea Rahma Putri
             </h2>

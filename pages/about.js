@@ -39,7 +39,7 @@ export default function About() {
                   <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
                     Dhea Rahma Putri
                   </h2>
-                  <div className="w-12 h-1 bg-pink-500 rounded mt-2 mb-4"></div>
+                  <div className="w-12 h-1 bg-green-500 rounded mt-2 mb-4"></div>
                   <p className="text-base">
                     An undergraduate student of Computer Engineering, Diponegoro
                     University.
