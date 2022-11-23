@@ -25,11 +25,11 @@ export default function List() {
   }, []);
 
   return (
-    <section class="text-gray-600 body-font">
-      <div class="container px-5 py-2 mx-auto">
-        <div class="flex flex-wrap -m-4">
+    <section className="text-gray-600 body-font">
+      <div className="container px-5 py-2 mx-auto">
+        <div className="flex flex-wrap -m-4">
           {data === null ? (
-            <p class="mx-auto text-center font-bold mt-4">Loading...</p>
+            <p className="mx-auto text-center font-bold mt-4">Loading...</p>
           ) : (
             data.map((item, index) => <Card key={index} data={item} />)
           )}
