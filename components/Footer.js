@@ -1,20 +1,25 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="text-gray-600 body-font">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <p className="text-sm text-gray-500 sm:py-2 sm:mt-0 mt-4">
           © 2022 Low Carb Recipes —
-          <a
+          <Link
             href="https://instagram.com/dhearahmap"
             className="text-gray-600 ml-1"
             rel="noopener noreferrer"
             target="_blank"
           >
             @dhearahmap
-          </a>
+          </Link>
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-          <a href="https://instagram.com/dhearahmap" className="text-gray-500">
+          <Link
+            href="https://instagram.com/dhearahmap"
+            className="text-gray-500"
+          >
             <svg
               fill="none"
               stroke="currentColor"
@@ -27,8 +32,8 @@ export default function Footer() {
               <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
               <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
             </svg>
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://www.linkedin.com/in/dhea-rahma-putri-314a48215"
             className="ml-8 text-gray-500"
           >
@@ -47,7 +52,7 @@ export default function Footer() {
               ></path>
               <circle cx="4" cy="4" r="2" stroke="none"></circle>
             </svg>
-          </a>
+          </Link>
         </span>
       </div>
     </footer>
