@@ -42,11 +42,11 @@
       "sizes": "512x512",
       "type": "image/png",
       "density": "4.0",
-      "purpose": "maskable"
+      "purpose": "maskable" 
     }
   ],
-  "theme_color": "#FFFFFF",
-  "background_color": "#FFFFFF",
+  "theme_color": "#ecfdf5",
+  "background_color": "#ecfdf5",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait"

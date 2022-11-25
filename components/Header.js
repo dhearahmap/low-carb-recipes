@@ -11,7 +11,7 @@ export default function Header() {
           className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
         >
           <Image src={apple_icon} alt="icon" width="40" height="40" />
-          <span className="ml-3 text-xl">Low Carb Recipes</span>
+          <span className="ml-3 text-xl font-bold">Low Carb Recipes</span>
         </Link>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
           <Link href="/" className="mr-5 hover:text-gray-900">
@@ -20,8 +20,8 @@ export default function Header() {
           <Link href="/reference" className="mr-5 hover:text-gray-900">
             Reference
           </Link>
-          <Link href="/faq" className="mr-5 hover:text-gray-900">
-            FAQ
+          <Link href="/description" className="mr-5 hover:text-gray-900">
+            Description
           </Link>
           <Link href="/about" className="mr-5 hover:text-gray-900">
             About

@@ -7,7 +7,7 @@ const options = {
     "X-RapidAPI-Key": process.env.NEXT_PUBLIC_RAPID_API_KEY,
     "X-RapidAPI-Host": process.env.NEXT_PUBLIC_RAPID_API_HOST,
   },
-};
+}; // kunci dan host dari api yang digunakan
 
 export default function List() {
   const [data, setData] = useState(null);
@@ -15,12 +15,12 @@ export default function List() {
   useEffect(() => {
     setTimeout(() => {
       fetch(
-        "https://low-carb-recipes.p.rapidapi.com/search",
+        "https://api.jsonbin.io/v3/b/63806e3665b57a31e6c32889?meta=false",
         options
       )
         .then((response) => response.json())
-        .then((response) => setData(response))
-        .catch((err) => console.error(err));
+        .then((response) => setData(response)) // setdata sesuai dengan response dari api
+        .catch((err) => console.error(err)); // untuk menampilkan error pada saat pengambilan API
     }, 250);
   }, []);
 

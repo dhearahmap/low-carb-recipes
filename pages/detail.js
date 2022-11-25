@@ -38,6 +38,7 @@ export default function Detail() {
 
   return (
     <div>
+      {/* title nya sesuai yang didapat dari api */}
       <Meta title={`Low Carb Recipes${title}`} />
 
       <Header />
@@ -172,7 +173,9 @@ export default function Detail() {
                   </Link>
                 </span>
               </div>
-              <p className="leading-relaxed">{data ? data.steps : ""}</p>
+              <p className="leading-relaxed text-justify">
+                {data ? data.steps : ""}
+              </p>
             </div>
           </div>
         </div>
