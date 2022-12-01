@@ -33,7 +33,7 @@ export default function Reference() {
               onClick={() =>
                 openModal(
                   "Food Reference",
-                  "Food Reference on this Low Carb Recipes Application is using Wikipedia."
+                  "Food Reference on this Low Carb Recipes Application is using Wikipedia. Wikipedia is a multilingual free online encyclopedia written and maintained by a community of volunteers through open collaboration and a wiki-based editing system. Its editors are known as Wikipedians. Wikipedia is the largest and most-read reference work in history. It is consistently one of the 10 most popular websites ranked by Similarweb."
                 )
               }
             >
@@ -64,7 +64,7 @@ export default function Reference() {
               onClick={() =>
                 openModal(
                   "Application Reference",
-                  "Application Reference on this Low Carb Recipes Application is using Next.js and Vercel."
+                  "Application Reference on this Low Carb Recipes Application is using Next.js and Vercel. Next.js is a React framework that gives you building blocks to create web applications. By framework, we mean Next.js handles the tooling and configuration needed for React, and provides additional structure, features, and optimizations for your application. Vercel is the platform for frontend developers, providing the speed and reliability innovators need to create at the moment of inspiration."
                 )
               }
             >
@@ -77,7 +77,7 @@ export default function Reference() {
               onClick={() =>
                 openModal(
                   "API Reference",
-                  "API or Application Programming Interface on this Low Carb Recipes is using RAPID API."
+                  "API or Application Programming Interface on this Low Carb Recipes is using RAPID API. RapidAPI is the world's largest API Marketplace — used by over one million developers to discover and connect to thousands of APIs. Using RapidAPI, developers can search and test the APIs, subscribe, and connect to the APIs — all with a single account, single API key and single SDK."
                 )
               }
             >
